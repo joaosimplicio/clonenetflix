@@ -1,0 +1,41 @@
+:root {
+  --red: #e50914;
+  --white: #fff;
+  --black: #000;
+  --font-titles: 4rem;
+  --font-subtitles: 1.625rem;
+  --font-texto: 1.2rem;
+  --font-btn: 1.5rem;
+}
+
+.red {
+  background-color: var(--red);
+}
+
+.white {
+  color: var(--white);
+}
+
+.font-titles {
+  font-size: var(--font-titles);
+}
+
+.font-subtitles {
+  font-size: var(--font-subtitles);
+  font-weight: 400;
+  color: var(--white);
+}
+
+.font-texto {
+  font-size: var(--font-texto);
+  color: var(--white);
+}
+
+.font-btn {
+  font-size: var(--font-btn);
+}
+
+.logar {
+  color: var(--white);
+  border-radius: 3px;
+}

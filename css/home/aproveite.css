@@ -1,0 +1,23 @@
+.aproveite-bg {
+  background-color: var(--black);
+  border-bottom: 8px solid #222;
+}
+
+.aproveite-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.aproveite-conteudo {
+  padding-top: 100px;
+}
+
+.aproveite-conteudo h1 {
+  margin-bottom: 20px;
+}
+
+.aproveite-conteudo h2 {
+  max-width: 40ch;
+}
