@@ -116,3 +116,37 @@
     width: 300px;
   }
 }
+
+@media (max-width: 700px) {
+  .header-conteudo h2 {
+    font-size: 1.5rem;
+  }
+
+  .header-conteudo p {
+    font-size: 1rem;
+  }
+
+  .forms #email {
+    width: 150px;
+  }
+
+  .botao a {
+    font-size: 0.875rem;
+    padding: 20px 10px;
+  }
+
+  .botao {
+    width: 100px;
+  }
+}
+
+@media (max-width: 430px) {
+  .header-nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .forms {
+    padding-bottom: 100px;
+  }
+}
