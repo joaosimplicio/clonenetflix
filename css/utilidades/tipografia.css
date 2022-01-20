@@ -2,10 +2,13 @@
   --red: #e50914;
   --white: #fff;
   --black: #000;
+  --blue: #005feb;
   --font-titles: 4rem;
   --font-subtitles: 1.625rem;
   --font-texto: 1.2rem;
   --font-btn: 1.5rem;
+  --text-1: 1.125rem;
+  --text-2: 0.875rem;
 }
 
 .red {
@@ -33,6 +36,15 @@
 
 .font-btn {
   font-size: var(--font-btn);
+}
+.text-1 {
+  font-size: var(--text-1);
+  color: var(--white);
+  font-weight: bold;
+}
+.text-2 {
+  font-size: var(--text-2);
+  color: var(--blue);
 }
 
 .logar {
