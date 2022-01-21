@@ -1,0 +1,76 @@
+.perguntas {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
+.detalhe {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.perguntas h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.perguntas-lista {
+  margin-bottom: 20px;
+  background: var(--detblack);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.perguntas-lista:hover {
+  opacity: 0.8;
+}
+
+.oq {
+  font-size: 2rem;
+  padding: 10px;
+  transition: 0.3s;
+  border-bottom: 1px solid #fff;
+}
+
+.oq-sobre {
+  font-size: 1.5rem;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+.forms-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+}
+
+.ready {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.forms-ready {
+  max-width: 1100px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media (max-width: 778px) {
+  .oq h1 {
+    font-size: 1rem;
+  }
+  .forms-2 #email {
+    width: 200px;
+  }
+}
+
+@media (max-width: 350px) {
+  .forms-2 #email {
+    width: 150px;
+  }
+}
