@@ -69,8 +69,21 @@
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 400px) {
   .forms-2 #email {
     width: 150px;
+  }
+
+  .perguntas h1 {
+    font-size: 2.5rem;
+  }
+
+  .perguntas summary,
+  p {
+    font-size: 1.235rem;
+  }
+
+  .perguntas .oq-sobre {
+    font-size: 1rem;
   }
 }

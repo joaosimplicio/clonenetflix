@@ -153,15 +153,6 @@
   .forms {
     padding-bottom: 100px;
   }
-
-  .perguntas-lista {
-    height: 50px;
-  }
-
-  .perguntas-lista summary,
-  p {
-    font-size: 0.875rem;
-  }
 }
 
 @media (max-width: 350px) {
